@@ -4,6 +4,18 @@
       "timestamp": "2025-08-30T20:53:22.245886",
       "activity_type": "logout",
       "details": {}
+    },
+    {
+      "timestamp": "2025-08-31T14:48:11.408884",
+      "activity_type": "prediction_generated",
+      "details": {
+        "market_type": "Forex",
+        "selected_asset": "EUR/USD",
+        "prediction_horizon": "1 Month",
+        "investment_amount": 1000,
+        "risk_level": "Medium",
+        "model_type": "LSTM Neural Network"
+      }
     }
   ]
 }

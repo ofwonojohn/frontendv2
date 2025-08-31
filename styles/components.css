@@ -1,0 +1,79 @@
+/* Login/Registration Forms */
+.auth-container {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 3rem;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 2rem auto;
+    max-width: 500px;
+}
+
+/* Form Inputs */
+.stTextInput > div > div > input,
+.stSelectbox > div > div > select,
+.stNumberInput > div > div > input {
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    transition: var(--transition);
+    background: var(--background-primary);
+}
+
+.stTextInput > div > div > input:focus,
+.stSelectbox > div > div > select:focus,
+.stNumberInput > div > div > input:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(46, 134, 171, 0.1);
+    outline: none;
+}
+
+/* Charts Container */
+.chart-container {
+    background: var(--background-primary);
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: var(--shadow-lg);
+    margin: 1rem 0;
+    border: 1px solid var(--border-color);
+}
+
+/* Technical Indicators */
+.tech-indicator {
+    background: var(--background-primary);
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: var(--shadow-lg);
+    transition: var(--transition);
+}
+
+.tech-indicator:hover {
+    transform: translateY(-2px);
+}
+
+/* User Dashboard */
+.dashboard-widget {
+    background: var(--background-primary);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: var(--shadow-lg);
+    border-left: 4px solid var(--accent-color);
+}
+
+/* Activity Log */
+.activity-item {
+    background: var(--background-secondary);
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 0.5rem 0;
+    border-left: 3px solid var(--primary-color);
+    transition: var(--transition);
+}
+
+.activity-item:hover {
+    background: var(--background-primary);
+    transform: translateX(5px);
+}
